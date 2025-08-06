@@ -4,7 +4,7 @@ public class JDBC_connect {
 
     // This method must be added for your GUI to work
     public static Connection getConnection() throws SQLException {
-        return DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/user_auth", "root", "A9411106a!***");  // your actual password
+        return DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/user_auth", "root", "password");  // your actual password
     }
 
     public static void main(String[] args) {
@@ -56,5 +56,6 @@ public class JDBC_connect {
             return false;
         }
     }
+
 
 }
